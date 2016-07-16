@@ -18,7 +18,8 @@
         "yiisoft/yii2": ">=2.0.5",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "fxp/composer-asset-plugin": "^1.2"
+        "fxp/composer-asset-plugin": "^1.2",
+        "ext-gd": "*"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
