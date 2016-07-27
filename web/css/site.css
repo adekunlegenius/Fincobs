@@ -2,6 +2,16 @@ html,
 body {
     height: 100%;
 }
+#the_background_color{
+    background-size: cover;
+    background-image: url("../img/home_background.jpg");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: transparent;
+}
 
 .wrap {
     min-height: 100%;

@@ -31,7 +31,8 @@ class DashboardAsset extends AssetBundle
         "plugins/slimScroll/jquery.slimscroll.min.js",
         "plugins/chartjs/Chart.min.js",
         'dist/js/pages/dashboard2.js',
-        'dist/js/demo.js'
+        'dist/js/demo.js',
+        //'js/interest.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',

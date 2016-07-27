@@ -42,7 +42,7 @@ $menuItems = [
     ['label' => 'Home', 'url' => ['/site/index']],
 ];
 if (Yii::$app->user->isGuest) {
-    $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
+    $menuItems[] = ['label' => 'SignUp', 'url' => ['/site/signup']];
 } else {
     $menuItems[] = '<li>'
         . Html::beginForm(['/site/logout'], 'post')

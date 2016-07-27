@@ -36,7 +36,7 @@ LoginAsset::register($this);
 
         <?php
         NavBar::begin([
-            'brandLabel' => 'FinsBS',
+            'brandLabel' => 'FincoBS',
             'brandUrl' => Yii::$app->homeUrl,
             'options' => [
                 'class' => 'navbar-inverse navbar-fixed-top',
